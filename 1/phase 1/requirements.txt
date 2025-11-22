@@ -1,0 +1,33 @@
+# pip install -r requirements.txt
+# Video Dubbing Pipeline Requirements
+# Core dependencies for English to Persian video dubbing
+
+# Numerical computing (version constraint required)
+numpy<2
+
+
+# PyTorch with CUDA support (install separately with index URL)
+# torch==2.1.0 --index-url https://download.pytorch.org/whl/cu118
+# torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
+
+# Audio/Video processing
+openai-whisper
+sherpa-onnx
+soundfile
+moviepy
+pysrt
+pydub
+ffmpeg-python
+yt-dlp
+
+# Machine learning and AI
+pyannote.audio==3.1.1
+google-generativeai
+
+# Utilities
+tqdm
+pathlib
+argparse
+
+# Optional faster whisper (alternative to openai-whisper)
+# faster-whisper

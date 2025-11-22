@@ -1,0 +1,36 @@
+# Video Dubbing Pipeline Requirements
+# Generated automatically from installed packages
+# Total packages: 25
+
+# Core dependencies
+accelerate==1.8.1
+bitsandbytes==0.46.1
+ffmpeg-python==0.2.0
+google-generativeai==0.8.5
+huggingface_hub==0.33.2
+librosa==0.11.0
+moviepy==1.0.3
+numpy==1.26.4
+openai-whisper==20250625
+openai==1.93.0
+pandas==2.2.2
+pathlib==1.0.1
+protobuf==5.29.5
+pyannote.audio==3.1.1
+pydub==0.25.1
+pysrt==1.1.2
+pytest==8.3.5
+sentencepiece==0.2.0
+sherpa-onnx==1.12.5
+soundfile==0.13.1
+torch==2.6.0+cu124
+torchaudio==2.6.0+cu124
+tqdm==4.67.1
+transformers==4.53.1
+yt-dlp==2025.6.30
+
+# Missing packages (not currently installed):
+argparse
+faster-whisper
+black
+flake8
