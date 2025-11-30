@@ -204,18 +204,8 @@ def create_sample_keys_file():
         print(f"✅ {keys_file} already exists")
         return True
     
-    sample_content = """AIzaSyCr7FaCu2kV_sGGadx9QjP_vlfjN0Nu8b4
-AIzaSyCNhF0n1xkqj0xSIJaH8SqwwvJmws-zUjs
-AIzaSyAPx47e7-dhHxMgfSHW5Kcu8zbIixl6RG4
-AIzaSyAb-rl_aXXXYDM_RbbkzWPu7LWmNYiWyuE
-AIzaSyC7xnpqOYd6lmFVGX5stPpBk5VnuuVr2X4
-AIzaSyCkIy2EkvSV-GcGa_uo2KxQ_4mKhOerEN0
-AIzaSyDsAFujZKFKtCk1TXWIcfTBdCbo91-VoRc
-AIzaSyC4ggTf98D-52XJfew5Mjw6ocqBsRtyaxY
-AIzaSyA594JS4rL3jw0dkr7dkpghfLG6Yzcaka0
-AIzaSyAiirJIqTLoy7Vkj0jBwl2dX-XZ1jVcDcY
-AIzaSyD6HGo0JogjzewwwvtEifCCcTk0mM8iBYY
-AIzaSyAMZOsK33UcSXyzELhZXfImf2lPetEUKqQ
+    sample_content = """
+    
 """
     
     try:
